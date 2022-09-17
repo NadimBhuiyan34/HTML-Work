@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+   
+    
+}
+.border{
+    border-style:solid;
+    border-radius: 5px;
+    border-width:2px;
+    width:320px;
+   
+   
+}
+
+.qrcode{
+    display: block;
+    margin:6px auto 6px auto;
+    width:120px;
+    height:120px;
+    border-style: solid;
+    border-width:1px;
+    border-radius: 5px;
+    
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    flex-direction:row;
+  }
+ .divStyle{
+    margin:0px 10px 3px 10px ;
+    
+ }
+ .border-b{
+    border-bottom: 1px solid rgb(0, 0, 0);
+ }
+ .border-b > p {
+    margin:0px;padding: 5px;
+ }
+ .bg-light {
+    background-color: #eeeeee;
+    opacity: 1;
+ }
+ .bg-white{
+    background-color: white;
+ }
+
+ .col {
+   flex: 1 0 0%;
+  
+ }
