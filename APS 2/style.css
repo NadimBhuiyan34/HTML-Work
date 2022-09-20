@@ -3,10 +3,11 @@
    gap: 5px;
  }
  .card{
-   width: 350px;
+   width: 305px;
    border-style:solid;
    border-radius:5px;
    border-width: 1px;
+  
  }
 .qrcode{
   display: block;
@@ -18,6 +19,15 @@
   margin: 5px;
    
 }
-th{
-  background-color:red;
+.item{
+ 
+   padding:5px;
+   margin-top:3px;
+   margin-bottom: 0px;
+}
+.item-color{
+  background-color: rgb(227, 227, 227);
+}
+.container{
+  display: flex;
 }
